@@ -1,0 +1,24 @@
+.box {
+  border: black solid 2px;
+  padding: 35px;
+  padding-top: 10px;
+  max-width: 25%;
+}
+.photo {
+  max-width: 100%;
+  max-height: 100%;
+}
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 700px) {
+  .container {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .box {
+  max-width: 100%;
+  margin: 25px;
+  }
