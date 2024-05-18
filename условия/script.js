@@ -30,3 +30,6 @@ if (question === sisters) {
  }
 
  //теперь выполниим последний пример с оператором "?"
+let question3 = prompt ('корень из 289?')
+    question3 === 17 ? alert ('да, молодец!') :
+    question3 === 18 ? alert ('почти угадал') : alert ('oh no')
