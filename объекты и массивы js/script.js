@@ -26,7 +26,7 @@ let pizza = {
 console.log(sushi, wok, buuza, pizza);
 
 //создаем массив из объектов
-let menu = ['sushi', 'wok', 'buuza', 'pizza']
+let menu = [sushi, wok, buuza, pizza]
 console.log(menu);
 
 //удаляем одно блюдо из массива
@@ -34,7 +34,7 @@ menu.pop();
 console.log(menu);
 
 //добавляем удаленное блюдо на первое место
-menu.unshift('pizza');
+menu.unshift(pizza);
 console.log(menu);
 
 //удаляем один из ингридиентов этого блюда
